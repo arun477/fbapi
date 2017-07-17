@@ -79,6 +79,7 @@ $(document).ready(function(){
 				$.fee = response.feed.data;
 				$("#vid").hide();
 				$("#item4-c").hide();
+				$(".feed").hide();
 				for (let i in $.fee){
 					
 					$("#item4-b").append("<h2 class='feed'>" +"<span id='feedname'>"+ $.fee[i].from.name+"</span>" +" "+":"+" "+ $.fee[i].message +"</h2>");
