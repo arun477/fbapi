@@ -14,71 +14,74 @@
 
 </head>
 <body>
-    
-    <div class="overlay container" id="frontcover" >
-    <h1 id="greeting">Welcome to fb voice &nbsp; !!! <br> login through your fb account<br>your personal informations never be stored</h1>
-    <h1 id="loginbutton" class="frontlogin"><img src="images/la.png" id="prof" />&nbsp;login</h1></div>
-	<div class="container">
+	
+	<div class="overlay container" id="frontcover" >
+		<h1 id="greeting">Welcome to fb voice &nbsp; !!! <br> login through your fb account<br>your personal informations never be stored</h1>
+		<h1 id="loginbutton" class="frontlogin"><img src="images/la.png" id="prof" />&nbsp;login<br><input type="text" id="accesstoken" placeholder="enter your accesstoken here and click the login" /><br><button type="submit" id="logbtn">login</button>
+		</h1></div>
+		<div class="container">
 
-		<!--navbar section -->
-		<div id="item1">
+			<!--navbar section -->
+			<div id="item1">
 
-			<h1 id="logo"> <span id="icon1">f</span>voice&nbsp;!<img src="images/icon2.png" id="speaker"/></h1>
-		</div>
-		<div id="item2">
-			<!--<h1 id="loginbutton"><img src="images/key1.png" id="prof"/>&nbsp;login</h1>-->
-			<h1 id="logoutbutton"><img src="images/logout.ico" id="logou"/>&nbsp;logout</h1>
-			<h1 id="user"><img src="images/icon1.png" id="prof1"/>&nbsp;<span id="username">something</span></h1>
-
-		</div>
-
-
-
-		<!-- ************************************************************************ -->
-
-		<!-- profile details -->
-
-		<div id="item3" class="container">
-			<div id="item3-a"><img src="images/githubicon.jpg" alt="profileimg" id="profileimg"></div>
-			<div id="item3-b">
-				<h3 id="name1"><span id="name">arun</span></h3>
-				<h3 id="age1"><span id="age">age</span></h3>
-				<div id="quote1"><img src="images/maleicon.png" id="gender" /></div>
+				<h1 id="logo"> <span id="icon1">f</span>voice&nbsp;!<img src="images/icon2.png" id="speaker"/></h1>
 			</div>
-			<div id="item3-c"><img src="images/githubicon.jpg" id="map"></div>
+			<div id="item2">
+				<!--<h1 id="loginbutton"><img src="images/key1.png" id="prof"/>&nbsp;login</h1>-->
+				<h1 id="logoutbutton"><img src="images/logout.ico" id="logou"/>&nbsp;logout</h1>
+				<h1 id="user"><img src="images/icon1.png" id="prof1"/>&nbsp;<span id="username">something</span></h1>
 
-		</div>
-
-		<!-- ************************************************************************** -->
-		<!-- voice queries using web speech api -->
-
-		<div id="item4" class="container">
-			<div id="item4-a"><img src="images/mikeicon.png" id="micke1"><h4 id="micke">Click the mike icon and command what you want, <span title="command list" id="cmdlist"> click here!!</span> to see the full list of all available commands.</h4></div>
-			<div id="item4-c"><h2 class="commands">1.&nbsp;&nbsp;say, <span style="color:#5FD4AF;">feed</span> to get your recent 3 feeds.</h2>
-				<h2 class="commands">2.&nbsp;&nbsp;say, <span style="color:#5FD4AF;"> post  </span>and followed by the message you want to post on fb. <b>for example</b> &nbsp;:&nbsp;post good morning everyone will post "good morning everyone".</h2>
-				<!--<h2 class="commands">3.&nbsp;&nbsp;say, <span style="color:#5FD4AF;"> albumbs </span> to get your albums. </h2> -->
 			</div>
-			<div id="item4-b">
-			<video id="vid" style="opacity:0.6; z-index:-1;" width="100%" height="" autoplay="autoplay" loop muted>
-					<source src="images/social.mp4" type="video/mp4">
-						<source src="images/social.mp4" type="video/ogg">
-							Your browser does not support the video tag.
-						</video> 
-					</div>
 
+
+
+			<!-- ************************************************************************ -->
+
+			<!-- profile details -->
+
+			<div id="item3" class="container">
+				<div id="item3-a"><img src="images/githubicon.jpg" alt="profileimg" id="profileimg"></div>
+				<div id="item3-b">
+					<h3 id="name1"><span id="name">arun</span></h3>
+					<h3 id="age1"><span id="age">age</span></h3>
+					<div id="quote1"><img src="images/maleicon.png" id="gender" /></div>
 				</div>
+				
 
+			</div>
 
-				<!-- **************************************************************************** -->
-				<!-- footer section -->
-				<div id="item5">
-					<a href="#" id="lim"><h2 id="foot"><span id="cop">&copy;</span>&nbsp;cool_nuke.Ltd</h2></a>
-					<h4 id="contain"> <a href="https://github.com/coolarun" target="_blank"><i class="fa fa-github-alt fa-1x" aria-hidden="true" id="git"></i></a>
-						<a href="https://www.facebook.com/arun.goodboy.1" target="_blank"> <i class="fa fa-facebook fa-1x" aria-hidden="true" id="fb"></i> </a>
-						<a href="https://www.instagram.com/cool_arun_123/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true" id="insta"></i></a></h4>  
+			<!-- ************************************************************************** -->
+			<!-- voice queries using web speech api -->
+
+			<div id="item4" class="container">
+				<div id="item4-a"><input id="postinput" type="text" placeholder="message"/>
+					
+					<button id="postbtn">post</button>
+					<h2 id="feedbttn"><span id="fbtn">click here&nbsp;!! </span>to get your recent 5 feeds</h2>
+				</div>
+				<div id="item4-c"><h1 style="text-align:center;" id="postresult"><h1>
+				</div>
+				<div id="item4-b">
+					<video id="vid" style="opacity:0.6; z-index:-1;" width="100%" height="" autoplay="autoplay" loop muted>
+						<source src="images/social.mp4" type="video/mp4">
+							<source src="images/social.mp4" type="video/ogg">
+								Your browser does not support the video tag.
+							</video> 
+						</div>
+
 					</div>
 
-				</div>	
+
+					<!-- **************************************************************************** -->
+					<!-- footer section -->
+					<div id="item5">
+						<a href="#" id="lim"><h2 id="foot"><span id="cop">&copy;</span>&nbsp;cool_nuke.Ltd</h2></a>
+						<h4 id="contain"> <a href="https://github.com/coolarun" target="_blank"><i class="fa fa-github-alt fa-1x" aria-hidden="true" id="git"></i></a>
+							<a href="https://www.facebook.com/arun.goodboy.1" target="_blank"> <i class="fa fa-facebook fa-1x" aria-hidden="true" id="fb"></i> </a>
+							<a href="https://www.instagram.com/cool_arun_123/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true" id="insta"></i></a></h4>  
+						</div>
+
+					</div>	
 
 
 
@@ -88,8 +91,8 @@
 
 
 
-				<script src="https://use.fontawesome.com/24ff1bfb92.js"></script>
-				<script src="javascripts/script1.js"></script>
+					<script src="https://use.fontawesome.com/24ff1bfb92.js"></script>
+					<script src="javascripts/script2.js"></script>
 
-			</body>
-			</html>
+				</body>
+				</html>

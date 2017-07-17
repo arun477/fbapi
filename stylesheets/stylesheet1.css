@@ -20,14 +20,14 @@ body, html {
 
 
 .overlay{
-    opacity:0.9;
-    background-color:black;
-    position:fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;
-    z-index:1000;
+	opacity:0.9;
+	background-color:black;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	z-index:1000;
 }
 
 #greeting {
@@ -133,10 +133,86 @@ body, html {
 	padding:;
 	background-color:;
 	font-size:1em;
-	width:96%;
+	width:50%;
+	cursor:;
+	background-color:;
+	height:100px;
+
+
+
+}
+#logbtn{
+	width:25%;
 	cursor:pointer;
+	margin-top:2%;
+	height:40px;
+	color:black;
+	background-color:grey;
+	border-radius:2%;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size:1.8em;
+	
+	text-align:center;
+}
+#accesstoken{
+	width:50%;
+	padding:1%;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size:2em;
+	height:20px;
+}
 
 
+#postinput {
+	width:100%;
+	margin:auto;
+	margin-left:;
+	margin-top:3%;
+	height:30px;
+	text-align:center;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size:1.3em;
+}
+
+
+#postbtn {
+	width:40%;
+	margin-top:3%;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size:1.3em;
+	margin-left:33%;
+}
+
+#postresult {
+	text-align:center;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size:2em;
+	font-weight:1em;
+	margin:2%;
+	color:#5FD4AF;
+	text-shadow:2px 2px 2px black;
+	line-height:2em;
+	letter-spacing:0.10em;
+}
+#item4-c{
+	display:none;
+}
+#feedbttn{
+	margin-top:1%;
+	text-align:center;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+}
+#fbtn{
+	text-align:center;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size:;
+	font-weight:1em;
+	margin:;
+	color:#5FD4AF;
+	text-shadow:2px 2px 2px black;
+	line-height:;
+	letter-spacing:0.10em;
+	cursor:pointer;
 }
 #loginbutton:hover {
 	text-align:right;
@@ -153,6 +229,7 @@ body, html {
 	border-bottom:;
 	border-width:;
 	border-size:;
+
 
 }
 
@@ -180,7 +257,7 @@ body, html {
 	font-size:0.8em;
 	width:96%;
 	color:grey;
-	cursor:pointer;
+	cursor:;
 	text-shadow:1px 1px 2px black;
 	border-bottom:;
 	border-width:;
@@ -260,7 +337,7 @@ body, html {
 	border:3px solid white;
 }
 #item3-b{
-	width:48%;
+	width:96%;
 	box-shadow:0 3px 3px grey;
 	margin-top:2%;
 	margin-left:2%;
@@ -317,6 +394,7 @@ body, html {
 	height:150px;
 	box-shadow:0 3px 3px grey;
 	margin-left:2%;
+	font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
 #item4-c {
@@ -869,20 +947,20 @@ body, html {
 		border:3px solid white;
 	}
 
-#greeting {
-	opacity:1;
-	width:100%;
-	text-align:center;
-	color:white;
-	font-family: 'Tenali Ramakrishna', sans-serif;
-	animation-name:fro;
-	animation-duration:7s;
-	animation-timing-function:ease-in-out;
-	text-shadow:2px 2px 2px black;
-	color:white;
-	font-size:1.5em;
-	font-family:monospace;
-}
+	#greeting {
+		opacity:1;
+		width:100%;
+		text-align:center;
+		color:white;
+		font-family: 'Tenali Ramakrishna', sans-serif;
+		animation-name:fro;
+		animation-duration:7s;
+		animation-timing-function:ease-in-out;
+		text-shadow:2px 2px 2px black;
+		color:white;
+		font-size:1.5em;
+		font-family:monospace;
+	}
 
 
 
@@ -1096,47 +1174,47 @@ body, html {
 	}
 
 	#post {
-	text-align:left;
-	font-family: 'Tenali Ramakrishna', sans-serif;
-	font-size:1.1em;
-	margin:1%;
-}
+		text-align:left;
+		font-family: 'Tenali Ramakrishna', sans-serif;
+		font-size:1.1em;
+		margin:1%;
+	}
 
-.feed {
-	text-align:left;
-	font-family: 'Tenali Ramakrishna', sans-serif;
-	font-size:1.1em;
-	margin:1%;
-}
+	.feed {
+		text-align:left;
+		font-family: 'Tenali Ramakrishna', sans-serif;
+		font-size:1.1em;
+		margin:1%;
+	}
 
-#feedname {
-	color:#5FD4AF;
-	text-shadow:1px 1px 1px black;
-}
+	#feedname {
+		color:#5FD4AF;
+		text-shadow:1px 1px 1px black;
+	}
 
-.commands {
-	text-decoration:none;
-	font-size:1.1em;
-}
+	.commands {
+		text-decoration:none;
+		font-size:1.1em;
+	}
 
-#micke {
-	text-decoration:none;
-	font-size:1.1em;
-}
+	#micke {
+		text-decoration:none;
+		font-size:1.1em;
+	}
 
-#greeting {
-	opacity:1;
-	width:100%;
-	text-align:center;
-	color:white;
-	font-family: 'Tenali Ramakrishna', sans-serif;
-	animation-name:fro;
-	animation-duration:7s;
-	animation-timing-function:ease-in-out;
-	text-shadow:2px 2px 2px black;
-	color:white;
-	font-size:1.3em;
-	font-family:monospace;
-}
+	#greeting {
+		opacity:1;
+		width:100%;
+		text-align:center;
+		color:white;
+		font-family: 'Tenali Ramakrishna', sans-serif;
+		animation-name:fro;
+		animation-duration:7s;
+		animation-timing-function:ease-in-out;
+		text-shadow:2px 2px 2px black;
+		color:white;
+		font-size:1.3em;
+		font-family:monospace;
+	}
 
 }
